@@ -6417,7 +6417,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 241.3 115.57 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cc9de352-82d2-42ca-8105-2d81bcaa35c2)
-    (property "Reference" "C100" (at 240.411 107.95 90)
+    (property "Reference" "C16" (at 240.411 107.95 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1uF 50V" (at 240.411 110.49 90)
@@ -6434,7 +6434,7 @@
     (instances
       (project "neovibe"
         (path "/10e06535-0cd4-4021-8aff-040ddd9278f7"
-          (reference "C100") (unit 1)
+          (reference "C16") (unit 1)
         )
       )
     )
@@ -6469,7 +6469,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x01") (at 39.37 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d21017b2-64c6-4292-ad12-3a4fc1306fa0)
-    (property "Reference" "C16" (at 41.91 54.61 0)
+    (property "Reference" "C101" (at 41.91 54.61 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x01" (at 41.91 57.15 0)
@@ -6485,7 +6485,7 @@
     (instances
       (project "neovibe"
         (path "/10e06535-0cd4-4021-8aff-040ddd9278f7"
-          (reference "C16") (unit 1)
+          (reference "C101") (unit 1)
         )
       )
     )
